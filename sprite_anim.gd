@@ -1,5 +1,5 @@
 extends RefCounted
-## Uma animação em folha de sprites de uma linha só (gerada por tools/gif_to_sheet.py).
+## Uma animação em folha de sprites de uma linha só (gerada por tools/build_sprites.py).
 
 var texture: Texture2D = null
 var frame_count := 1
@@ -23,6 +23,17 @@ func is_loaded() -> bool:
 	return texture != null
 
 
+## Tamanho de um quadro em pixels da folha.
+func cell_size() -> Vector2:
+	return Vector2(texture.get_width() / float(frame_count), texture.get_height())
+
+
+## Desenha um quadro inteiro com o canto de cima à esquerda em `top_left` (para HUD).
+func draw_at(canvas: CanvasItem, frame: int, top_left: Vector2, scale: float) -> void:
+	var cell := cell_size()
+	canvas.draw_texture_rect_region(texture, Rect2(top_left, cell * scale), Rect2(Vector2(frame * cell.x, 0.0), cell))
+
+
 func duration() -> float:
 	return frame_count * frame_time
 
@@ -39,9 +50,10 @@ func frame_at(time: float, loop := true, first := 0, last := -1) -> int:
 
 
 ## Desenha um quadro com os pés em `position`. `facing` é 1 (direita) ou -1 (esquerda).
-func draw(canvas: CanvasItem, frame: int, position: Vector2, scale: float, facing := 1.0, rotation := 0.0, stretch := Vector2.ONE) -> void:
+## `tint` multiplica as cores (ex.: verde para enjoado, valores acima de 1 clareiam).
+func draw(canvas: CanvasItem, frame: int, position: Vector2, scale: float, facing := 1.0, rotation := 0.0, stretch := Vector2.ONE, tint := Color.WHITE) -> void:
 	var cell := Vector2(texture.get_width() / float(frame_count), texture.get_height())
 	var flip := -facing if faces_left else facing
 	canvas.draw_set_transform(position, rotation, Vector2(flip, 1.0) * stretch * scale)
-	canvas.draw_texture_rect_region(texture, Rect2(-feet, cell), Rect2(Vector2(frame * cell.x, 0.0), cell))
+	canvas.draw_texture_rect_region(texture, Rect2(-feet, cell), Rect2(Vector2(frame * cell.x, 0.0), cell), tint)
 	canvas.draw_set_transform(Vector2.ZERO)

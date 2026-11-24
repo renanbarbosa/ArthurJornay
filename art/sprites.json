@@ -1,0 +1,1201 @@
+{
+ "arara_andando": {
+  "frames": 3,
+  "cell": [
+   335,
+   227
+  ],
+  "feet": [
+   167,
+   205
+  ]
+ },
+ "arara_ataque": {
+  "frames": 3,
+  "cell": [
+   348,
+   202
+  ],
+  "feet": [
+   159,
+   197
+  ]
+ },
+ "arara_dano": {
+  "frames": 2,
+  "cell": [
+   230,
+   203
+  ],
+  "feet": [
+   130,
+   172
+  ]
+ },
+ "arara_derrota": {
+  "frames": 1,
+  "cell": [
+   232,
+   163
+  ],
+  "feet": [
+   133,
+   159
+  ]
+ },
+ "arthur_andando": {
+  "frames": 6,
+  "cell": [
+   163,
+   293
+  ],
+  "feet": [
+   83,
+   288
+  ]
+ },
+ "arthur_ataque": {
+  "frames": 6,
+  "cell": [
+   312,
+   271
+  ],
+  "feet": [
+   151,
+   266
+  ]
+ },
+ "arthur_comemora": {
+  "frames": 6,
+  "cell": [
+   220,
+   303
+  ],
+  "feet": [
+   117,
+   285
+  ]
+ },
+ "arthur_correndo": {
+  "frames": 8,
+  "cell": [
+   228,
+   295
+  ],
+  "feet": [
+   113,
+   271
+  ]
+ },
+ "arthur_defesa": {
+  "frames": 6,
+  "cell": [
+   204,
+   280
+  ],
+  "feet": [
+   81,
+   276
+  ]
+ },
+ "arthur_derrotado": {
+  "frames": 6,
+  "cell": [
+   257,
+   245
+  ],
+  "feet": [
+   139,
+   218
+  ]
+ },
+ "arthur_espetinho": {
+  "frames": 9,
+  "cell": [
+   359,
+   285
+  ],
+  "feet": [
+   126,
+   280
+  ]
+ },
+ "arthur_parado": {
+  "frames": 2,
+  "cell": [
+   124,
+   279
+  ],
+  "feet": [
+   62,
+   274
+  ]
+ },
+ "arthur_pulo": {
+  "frames": 6,
+  "cell": [
+   205,
+   276
+  ],
+  "feet": [
+   111,
+   271
+  ]
+ },
+ "arthur_pum": {
+  "frames": 9,
+  "cell": [
+   455,
+   294
+  ],
+  "feet": [
+   248,
+   289
+  ]
+ },
+ "banco": {
+  "frames": 1,
+  "cell": [
+   322,
+   183
+  ],
+  "feet": [
+   161,
+   179
+  ]
+ },
+ "barata_andando": {
+  "frames": 3,
+  "cell": [
+   427,
+   438
+  ],
+  "feet": [
+   207,
+   432
+  ]
+ },
+ "barata_arremesso": {
+  "frames": 2,
+  "cell": [
+   629,
+   415
+  ],
+  "feet": [
+   230,
+   410
+  ]
+ },
+ "barata_dano": {
+  "frames": 2,
+  "cell": [
+   429,
+   439
+  ],
+  "feet": [
+   198,
+   433
+  ]
+ },
+ "barata_derrota": {
+  "frames": 1,
+  "cell": [
+   463,
+   316
+  ],
+  "feet": [
+   214,
+   311
+  ]
+ },
+ "bruxa_andando": {
+  "frames": 9,
+  "cell": [
+   369,
+   358
+  ],
+  "feet": [
+   184,
+   343
+  ]
+ },
+ "bruxa_dano": {
+  "frames": 6,
+  "cell": [
+   296,
+   400
+  ],
+  "feet": [
+   142,
+   394
+  ]
+ },
+ "bruxa_derrota": {
+  "frames": 6,
+  "cell": [
+   497,
+   353
+  ],
+  "feet": [
+   245,
+   347
+  ]
+ },
+ "bruxa_entrada": {
+  "frames": 6,
+  "cell": [
+   339,
+   357
+  ],
+  "feet": [
+   139,
+   352
+  ]
+ },
+ "bruxa_invocando": {
+  "frames": 6,
+  "cell": [
+   325,
+   399
+  ],
+  "feet": [
+   136,
+   394
+  ]
+ },
+ "bruxa_magia": {
+  "frames": 9,
+  "cell": [
+   560,
+   372
+  ],
+  "feet": [
+   264,
+   337
+  ]
+ },
+ "bruxa_vassourada": {
+  "frames": 6,
+  "cell": [
+   372,
+   348
+  ],
+  "feet": [
+   162,
+   343
+  ]
+ },
+ "cachorro_ataque": {
+  "frames": 9,
+  "cell": [
+   225,
+   183
+  ],
+  "feet": [
+   97,
+   167
+  ]
+ },
+ "cachorro_correndo": {
+  "frames": 9,
+  "cell": [
+   210,
+   185
+  ],
+  "feet": [
+   107,
+   181
+  ]
+ },
+ "cachorro_dano": {
+  "frames": 6,
+  "cell": [
+   170,
+   199
+  ],
+  "feet": [
+   85,
+   194
+  ]
+ },
+ "cachorro_surgindo": {
+  "frames": 9,
+  "cell": [
+   198,
+   175
+  ],
+  "feet": [
+   94,
+   170
+  ]
+ },
+ "caranguejo_andando": {
+  "frames": 3,
+  "cell": [
+   323,
+   192
+  ],
+  "feet": [
+   156,
+   186
+  ]
+ },
+ "caranguejo_ataque": {
+  "frames": 3,
+  "cell": [
+   383,
+   264
+  ],
+  "feet": [
+   211,
+   259
+  ]
+ },
+ "caranguejo_dano": {
+  "frames": 2,
+  "cell": [
+   305,
+   227
+  ],
+  "feet": [
+   147,
+   222
+  ]
+ },
+ "caranguejo_derrota": {
+  "frames": 1,
+  "cell": [
+   362,
+   202
+  ],
+  "feet": [
+   183,
+   197
+  ]
+ },
+ "chihuahua_ataque": {
+  "frames": 9,
+  "cell": [
+   174,
+   147
+  ],
+  "feet": [
+   88,
+   140
+  ]
+ },
+ "chihuahua_correndo": {
+  "frames": 9,
+  "cell": [
+   173,
+   141
+  ],
+  "feet": [
+   84,
+   136
+  ]
+ },
+ "chihuahua_dano": {
+  "frames": 9,
+  "cell": [
+   173,
+   147
+  ],
+  "feet": [
+   80,
+   141
+  ]
+ },
+ "coco": {
+  "frames": 6,
+  "cell": [
+   150,
+   149
+  ],
+  "feet": [
+   76,
+   135
+  ]
+ },
+ "dorothy_correndo": {
+  "frames": 9,
+  "cell": [
+   255,
+   150
+  ],
+  "feet": [
+   130,
+   145
+  ]
+ },
+ "dorothy_lambida": {
+  "frames": 6,
+  "cell": [
+   249,
+   230
+  ],
+  "feet": [
+   119,
+   226
+  ]
+ },
+ "dorothy_latido": {
+  "frames": 9,
+  "cell": [
+   308,
+   198
+  ],
+  "feet": [
+   147,
+   181
+  ]
+ },
+ "dorothy_parada": {
+  "frames": 6,
+  "cell": [
+   231,
+   187
+  ],
+  "feet": [
+   122,
+   169
+  ]
+ },
+ "ermitao_andando": {
+  "frames": 3,
+  "cell": [
+   234,
+   182
+  ],
+  "feet": [
+   113,
+   176
+  ]
+ },
+ "ermitao_ataque": {
+  "frames": 2,
+  "cell": [
+   283,
+   213
+  ],
+  "feet": [
+   133,
+   208
+  ]
+ },
+ "ermitao_dano": {
+  "frames": 2,
+  "cell": [
+   203,
+   184
+  ],
+  "feet": [
+   103,
+   178
+  ]
+ },
+ "ermitao_derrota": {
+  "frames": 1,
+  "cell": [
+   259,
+   157
+  ],
+  "feet": [
+   136,
+   151
+  ]
+ },
+ "estrela_andando": {
+  "frames": 2,
+  "cell": [
+   400,
+   372
+  ],
+  "feet": [
+   202,
+   366
+  ]
+ },
+ "estrela_ataque": {
+  "frames": 3,
+  "cell": [
+   609,
+   435
+  ],
+  "feet": [
+   258,
+   429
+  ]
+ },
+ "estrela_danca": {
+  "frames": 1,
+  "cell": [
+   498,
+   376
+  ],
+  "feet": [
+   233,
+   371
+  ]
+ },
+ "estrela_dano": {
+  "frames": 2,
+  "cell": [
+   407,
+   402
+  ],
+  "feet": [
+   210,
+   397
+  ]
+ },
+ "estrela_derrota": {
+  "frames": 1,
+  "cell": [
+   497,
+   162
+  ],
+  "feet": [
+   255,
+   158
+  ]
+ },
+ "fantasma_dano": {
+  "frames": 2,
+  "cell": [
+   302,
+   288
+  ],
+  "feet": [
+   173,
+   283
+  ]
+ },
+ "fantasma_derrota": {
+  "frames": 1,
+  "cell": [
+   445,
+   237
+  ],
+  "feet": [
+   213,
+   233
+  ]
+ },
+ "fantasma_susto": {
+  "frames": 3,
+  "cell": [
+   571,
+   324
+  ],
+  "feet": [
+   287,
+   319
+  ]
+ },
+ "fantasma_voando": {
+  "frames": 3,
+  "cell": [
+   324,
+   241
+  ],
+  "feet": [
+   162,
+   235
+  ]
+ },
+ "gordao_andando": {
+  "frames": 3,
+  "cell": [
+   353,
+   350
+  ],
+  "feet": [
+   170,
+   345
+  ]
+ },
+ "gordao_ataque": {
+  "frames": 3,
+  "cell": [
+   447,
+   371
+  ],
+  "feet": [
+   253,
+   367
+  ]
+ },
+ "gordao_dano": {
+  "frames": 2,
+  "cell": [
+   292,
+   349
+  ],
+  "feet": [
+   175,
+   344
+  ]
+ },
+ "gordao_derrota": {
+  "frames": 1,
+  "cell": [
+   296,
+   292
+  ],
+  "feet": [
+   194,
+   287
+  ]
+ },
+ "hipopotamo_andando": {
+  "frames": 3,
+  "cell": [
+   425,
+   250
+  ],
+  "feet": [
+   212,
+   245
+  ]
+ },
+ "hipopotamo_ataque": {
+  "frames": 3,
+  "cell": [
+   522,
+   273
+  ],
+  "feet": [
+   263,
+   268
+  ]
+ },
+ "hipopotamo_dano": {
+  "frames": 2,
+  "cell": [
+   395,
+   263
+  ],
+  "feet": [
+   189,
+   259
+  ]
+ },
+ "hipopotamo_derrota": {
+  "frames": 1,
+  "cell": [
+   375,
+   174
+  ],
+  "feet": [
+   213,
+   170
+  ]
+ },
+ "hud_arthur": {
+  "frames": 6,
+  "cell": [
+   123,
+   122
+  ],
+  "feet": [
+   63,
+   118
+  ]
+ },
+ "hud_barra": {
+  "frames": 1,
+  "cell": [
+   628,
+   194
+  ],
+  "feet": [
+   324,
+   169
+  ]
+ },
+ "hud_comandos": {
+  "frames": 1,
+  "cell": [
+   768,
+   181
+  ],
+  "feet": [
+   384,
+   174
+  ]
+ },
+ "hud_icones": {
+  "frames": 6,
+  "cell": [
+   94,
+   86
+  ],
+  "feet": [
+   47,
+   81
+  ]
+ },
+ "ifood_caido": {
+  "frames": 2,
+  "cell": [
+   403,
+   303
+  ],
+  "feet": [
+   195,
+   298
+  ]
+ },
+ "ifood_manobra": {
+  "frames": 4,
+  "cell": [
+   473,
+   343
+  ],
+  "feet": [
+   236,
+   338
+  ]
+ },
+ "ifood_moto": {
+  "frames": 3,
+  "cell": [
+   474,
+   309
+  ],
+  "feet": [
+   249,
+   304
+  ]
+ },
+ "lagosta_andando": {
+  "frames": 3,
+  "cell": [
+   333,
+   237
+  ],
+  "feet": [
+   163,
+   230
+  ]
+ },
+ "lagosta_ataque": {
+  "frames": 2,
+  "cell": [
+   433,
+   234
+  ],
+  "feet": [
+   212,
+   229
+  ]
+ },
+ "lagosta_dano": {
+  "frames": 2,
+  "cell": [
+   263,
+   250
+  ],
+  "feet": [
+   138,
+   245
+  ]
+ },
+ "lagosta_derrota": {
+  "frames": 1,
+  "cell": [
+   353,
+   225
+  ],
+  "feet": [
+   177,
+   218
+  ]
+ },
+ "morador_andando": {
+  "frames": 3,
+  "cell": [
+   304,
+   322
+  ],
+  "feet": [
+   160,
+   316
+  ]
+ },
+ "morador_ataque": {
+  "frames": 3,
+  "cell": [
+   415,
+   331
+  ],
+  "feet": [
+   171,
+   325
+  ]
+ },
+ "morador_dano": {
+  "frames": 2,
+  "cell": [
+   285,
+   360
+  ],
+  "feet": [
+   170,
+   355
+  ]
+ },
+ "morador_derrota": {
+  "frames": 1,
+  "cell": [
+   291,
+   260
+  ],
+  "feet": [
+   140,
+   255
+  ]
+ },
+ "pais_livres": {
+  "frames": 3,
+  "cell": [
+   390,
+   352
+  ],
+  "feet": [
+   114,
+   344
+  ]
+ },
+ "pais_presos": {
+  "frames": 3,
+  "cell": [
+   386,
+   297
+  ],
+  "feet": [
+   106,
+   292
+  ]
+ },
+ "pitbull_ataque": {
+  "frames": 6,
+  "cell": [
+   273,
+   273
+  ],
+  "feet": [
+   139,
+   259
+  ]
+ },
+ "pitbull_correndo": {
+  "frames": 9,
+  "cell": [
+   257,
+   168
+  ],
+  "feet": [
+   131,
+   163
+  ]
+ },
+ "pitbull_dano": {
+  "frames": 6,
+  "cell": [
+   270,
+   240
+  ],
+  "feet": [
+   122,
+   236
+  ]
+ },
+ "pitbull_parado": {
+  "frames": 1,
+  "cell": [
+   187,
+   174
+  ],
+  "feet": [
+   94,
+   169
+  ]
+ },
+ "praga_andando": {
+  "frames": 3,
+  "cell": [
+   205,
+   352
+  ],
+  "feet": [
+   92,
+   347
+  ]
+ },
+ "praga_dano": {
+  "frames": 1,
+  "cell": [
+   234,
+   347
+  ],
+  "feet": [
+   96,
+   341
+  ]
+ },
+ "praga_derrota": {
+  "frames": 1,
+  "cell": [
+   308,
+   259
+  ],
+  "feet": [
+   160,
+   254
+  ]
+ },
+ "praga_muleta": {
+  "frames": 3,
+  "cell": [
+   426,
+   377
+  ],
+  "feet": [
+   172,
+   371
+  ]
+ },
+ "praga_xinga": {
+  "frames": 1,
+  "cell": [
+   182,
+   381
+  ],
+  "feet": [
+   94,
+   375
+  ]
+ },
+ "preguica_andando": {
+  "frames": 3,
+  "cell": [
+   339,
+   243
+  ],
+  "feet": [
+   171,
+   238
+  ]
+ },
+ "preguica_ataque": {
+  "frames": 3,
+  "cell": [
+   401,
+   283
+  ],
+  "feet": [
+   177,
+   279
+  ]
+ },
+ "preguica_dano": {
+  "frames": 2,
+  "cell": [
+   332,
+   276
+  ],
+  "feet": [
+   160,
+   271
+  ]
+ },
+ "preguica_derrota": {
+  "frames": 1,
+  "cell": [
+   394,
+   168
+  ],
+  "feet": [
+   188,
+   163
+  ]
+ },
+ "rato_andando": {
+  "frames": 3,
+  "cell": [
+   419,
+   207
+  ],
+  "feet": [
+   210,
+   202
+  ]
+ },
+ "rato_dano": {
+  "frames": 2,
+  "cell": [
+   339,
+   264
+  ],
+  "feet": [
+   165,
+   260
+  ]
+ },
+ "rato_derrota": {
+  "frames": 1,
+  "cell": [
+   314,
+   182
+  ],
+  "feet": [
+   142,
+   178
+  ]
+ },
+ "rato_rabada": {
+  "frames": 3,
+  "cell": [
+   399,
+   265
+  ],
+  "feet": [
+   178,
+   260
+  ]
+ },
+ "sagui_andando": {
+  "frames": 3,
+  "cell": [
+   484,
+   341
+  ],
+  "feet": [
+   243,
+   335
+  ]
+ },
+ "sagui_ataque": {
+  "frames": 3,
+  "cell": [
+   598,
+   366
+  ],
+  "feet": [
+   249,
+   360
+  ]
+ },
+ "sagui_dano": {
+  "frames": 2,
+  "cell": [
+   434,
+   399
+  ],
+  "feet": [
+   209,
+   393
+  ]
+ },
+ "sagui_derrota": {
+  "frames": 1,
+  "cell": [
+   613,
+   278
+  ],
+  "feet": [
+   282,
+   267
+  ]
+ },
+ "vaca_andando": {
+  "frames": 3,
+  "cell": [
+   405,
+   261
+  ],
+  "feet": [
+   206,
+   257
+  ]
+ },
+ "vaca_chifrada": {
+  "frames": 3,
+  "cell": [
+   458,
+   260
+  ],
+  "feet": [
+   231,
+   255
+  ]
+ },
+ "vaca_dano": {
+  "frames": 2,
+  "cell": [
+   368,
+   293
+  ],
+  "feet": [
+   192,
+   287
+  ]
+ },
+ "vaca_derrota": {
+  "frames": 1,
+  "cell": [
+   392,
+   208
+  ],
+  "feet": [
+   214,
+   204
+  ]
+ },
+ "vovo_bosque_livre": {
+  "frames": 3,
+  "cell": [
+   255,
+   324
+  ],
+  "feet": [
+   138,
+   319
+  ]
+ },
+ "vovo_bosque_presa": {
+  "frames": 3,
+  "cell": [
+   255,
+   280
+  ],
+  "feet": [
+   117,
+   275
+  ]
+ },
+ "vovos_livres": {
+  "frames": 3,
+  "cell": [
+   380,
+   331
+  ],
+  "feet": [
+   162,
+   326
+  ]
+ },
+ "vovos_presos": {
+  "frames": 3,
+  "cell": [
+   390,
+   299
+  ],
+  "feet": [
+   158,
+   294
+  ]
+ }
+}

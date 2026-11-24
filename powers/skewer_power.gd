@@ -2,10 +2,12 @@ extends "res://powers/power.gd"
 ## Super Espetinho: Arthur come o espetinho e solta fogo pela boca,
 ## acabando com todos os inimigos e ferindo a bruxa.
 
-## Momento da animação (em segundos) em que o fogo sai da boca.
-const FIRE_START := 0.6
-## Boca do Arthur em relação aos pés, já na escala do jogo.
-const MOUTH := Vector2(4.0, -90.0)
+## Momento da animação (em segundos) em que o fogo sai da boca: quadro 6 de
+## arthur_espetinho (comer, ficar vermelho, soltar fumaça, cuspir fogo).
+const FIRE_START := 0.78
+## Ponta do fogo desenhado no sprite, em relação aos pés (escala do jogo).
+## O jato continua dali para a frente.
+const MOUTH := Vector2(100.0, -84.0)
 
 var fired := false
 
@@ -16,9 +18,9 @@ func _init() -> void:
 	hud_label = "espetinho"
 	keycode = KEY_E
 	cooldown = 18.0
-	effect_duration = 1.35
+	effect_duration = 1.6
 	hud_color = Color("#a14c68")
-	player_anim = "arthur_fogo"
+	player_anim = "arthur_espetinho"
 	locks_movement = true
 
 

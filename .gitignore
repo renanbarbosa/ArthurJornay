@@ -23,3 +23,9 @@ mono_crash.*.json
 *.exe
 # Uncomment if your project does not version PCK files as runtime dependencies.
 # *.pck
+
+# Fotos reais e referências pessoais (nunca enviar ao GitHub)
+referencias_privadas/
+
+# Prévia gerada por tools/build_sprites.py --preview
+tools/_preview.png

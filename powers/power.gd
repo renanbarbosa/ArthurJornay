@@ -16,7 +16,8 @@ extends RefCounted
 ## player_x, player_lane, facing.
 ##
 ## Para o Arthur fazer uma animação durante o poder, coloque o nome dela em
-## `player_anim` (veja `anims` em _ready, no main.gd) e ajuste `effect_duration`.
+## `player_anim` (veja ANIM_SPEED, no main.gd) e ajuste `effect_duration`, ou
+## sobrescreva `player_frame` para controlar quadro a quadro (ex.: Doroth).
 
 var id := ""
 var display_name := ""
@@ -26,10 +27,13 @@ var keycode: Key = KEY_NONE
 var cooldown := 0.0
 var effect_duration := 0.0
 var hud_color := Color("#a14c68")
-## Animação do Arthur enquanto o efeito dura (nome em game.anims). "" = nenhuma.
+## Animação do Arthur durante a "pose" do poder (nome em game.anims). "" = nenhuma.
 var player_anim := ""
-## Arthur fica parado (sem andar, pular ou atacar) enquanto o efeito dura.
+## Arthur fica parado (sem andar, pular ou atacar) durante a pose.
 var locks_movement := false
+## Duração da pose (animação do Arthur + trava). Negativo = o efeito inteiro.
+## Útil quando o efeito visual dura mais que a animação (ex.: gosma do pum).
+var pose_duration := -1.0
 
 var cooldown_left := 0.0
 var effect_left := 0.0
@@ -47,6 +51,11 @@ func is_active() -> bool:
 ## Segundos desde que o poder foi ativado (enquanto o efeito dura).
 func elapsed() -> float:
 	return effect_duration - effect_left
+
+
+## Arthur está fazendo a pose do poder (animação própria / parado).
+func is_posing() -> bool:
+	return is_active() and (pose_duration < 0.0 or elapsed() < pose_duration)
 
 
 func try_activate(game) -> bool:
@@ -81,11 +90,27 @@ func _on_update(_game, _delta: float) -> void:
 	pass
 
 
-## Desenho no mundo chamado sempre, mesmo sem o efeito ativo (ex.: Doroth
-## passeando). É chamado duas vezes por quadro: antes do Arthur
-## (behind_player = true) e depois dele (false); desenhe só em uma delas.
-func draw_world(_game, _camera_x: float, _behind_player: bool) -> void:
+## Personagem do poder que fica no cenário (ex.: Doroth passeando): retorne a
+## posição y dos pés na tela para ele entrar na ordem de profundidade, ou NAN
+## se não há nada para desenhar. Chamado sempre, mesmo sem o efeito ativo.
+func world_depth(_game) -> float:
+	return NAN
+
+
+## Desenha o personagem do cenário. Só é chamado se world_depth não for NAN.
+func draw_world(_game, _camera_x: float) -> void:
 	pass
+
+
+## Animação do Arthur controlada pelo poder: [nome, quadro], ou [] para nenhuma.
+## Padrão: `player_anim` durante a pose.
+func player_frame(game) -> Array:
+	if player_anim == "" or not is_posing():
+		return []
+	var anim = game.get_anim(player_anim)
+	if anim == null:
+		return []
+	return [player_anim, anim.frame_at(elapsed(), false)]
 
 
 ## Desenho no mundo, depois do Arthur. Só é chamado enquanto o efeito está ativo.
